@@ -1,0 +1,123 @@
+/* Layout Elements */
+
+body.body-1 {
+  background-color: #fff;
+  background-image: url('../imgs/pori.jpg');
+  background-attachment: scroll;
+  background-position: left top;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+  background-repeat: no-repeat;
+
+  background-blend-mode: normal;
+}
+
+.container.container-1 {
+  width: 100%;
+  background-color: #ffcd00;
+}
+
+.container.container-2 {
+  display: block;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  float: none;
+  -ms-flex-align: center;
+  margin-top: 14px;
+  margin-right: 14px;
+  margin-left: 14px;
+  padding-top: 0;
+  width: auto;
+  vertical-align: baseline;
+  text-align: center;
+  -webkit-column-span: all;
+     -moz-column-span: all;
+          column-span: all;
+  -webkit-column-count: 1;
+     -moz-column-count: 1;
+          column-count: 1;
+  -webkit-column-fill: balance;
+     -moz-column-fill: balance;
+          column-fill: balance;
+  -webkit-column-gap: 14px;
+     -moz-column-gap: 14px;
+          column-gap: 14px;
+  -webkit-column-rule-width: 2px;
+     -moz-column-rule-width: 2px;
+          column-rule-width: 2px;
+  -webkit-column-rule-style: dotted;
+     -moz-column-rule-style: dotted;
+          column-rule-style: dotted;
+
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+          align-items: center;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+          align-self: auto;
+  justify-self: auto;
+}
+
+div.responsive-picture.picture-1 {
+  max-width: 340px;
+  max-height: 60px;
+  width: 340px;
+  height: 60px;
+  background-color: #ffcd00;
+  background-image: url('../imgs/logo2.png');
+  background-attachment: scroll;
+  background-position: left top;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  background-blend-mode: normal;
+}
+
+div.responsive-picture.picture-1 > picture {
+  height: 60px;
+}
+
+div.responsive-picture.picture-1 > picture > img {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.html-element.html-element-2 {
+  display: block;
+  float: left;
+  clear: none;
+  margin-right: 14px;
+  width: 450px;
+
+  justify-self: auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+          align-self: auto;
+}
+
+div.responsive-video.video-platform-1 {
+  display: block;
+  margin-bottom: 14px;
+  margin-left: 0;
+  padding-bottom: 40%;
+  padding-left: 14px;
+  min-height: auto;
+  max-height: none;
+  height: auto;
+
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+          align-self: auto;
+}
