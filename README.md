@@ -1,3 +1,3 @@
 # Porikiikari
 
-Yksinkertainen webbiprojekti joka tarjoaa livevideota, viimeisimmät uutiset, ja paikallisen sään Porin kaupungista.
+Yksinkertainen webbiprojekti joka tarjoaa livevideota, viimeisimmät uutiset, sekä paikallisen sään Porin kaupungista.
